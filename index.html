@@ -15,6 +15,11 @@
       src: url("Muchacho.otf") format("opentype");
     }
 
+    @font-face {
+      font-family: Aleo;
+      src: url("Aleo-Regular.otf") format("opentype");
+    }
+
     /* http://css-tricks.com/perfect-full-page-background-image/ */
     html {
         background: url(background.jpg) no-repeat center center fixed; 
@@ -32,9 +37,13 @@
     }
 
     h1 {
-      font-family: "Muchacho", Arial, sans-serif;
+      font-family: "Muchacho", "Aleo", Arial, sans-serif;
       font-weight: 400;
       font-size: 40px;
+    }
+
+    h2 {
+      font-family: "Aleo";
     }
 
     .tagline {
